@@ -211,7 +211,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &457312183
 GameObject:
@@ -365,3 +365,77 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f33e87d965c95f479e96cdc048241fe, type: 3}
+--- !u!1001 &1879115248
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: 179df7838932a0b48b4ea143f3bcdfb4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.210842
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 179df7838932a0b48b4ea143f3bcdfb4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.4002547
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 179df7838932a0b48b4ea143f3bcdfb4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 14.251017
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 179df7838932a0b48b4ea143f3bcdfb4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 179df7838932a0b48b4ea143f3bcdfb4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 179df7838932a0b48b4ea143f3bcdfb4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 179df7838932a0b48b4ea143f3bcdfb4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 179df7838932a0b48b4ea143f3bcdfb4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 179df7838932a0b48b4ea143f3bcdfb4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 179df7838932a0b48b4ea143f3bcdfb4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 179df7838932a0b48b4ea143f3bcdfb4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: 179df7838932a0b48b4ea143f3bcdfb4,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0cef46ecd3b13ee41b6cc308c6a507fc, type: 2}
+    - target: {fileID: -927199367670048503, guid: 179df7838932a0b48b4ea143f3bcdfb4,
+        type: 3}
+      propertyPath: m_Name
+      value: Radierer
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 179df7838932a0b48b4ea143f3bcdfb4, type: 3}
