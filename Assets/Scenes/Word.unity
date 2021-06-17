@@ -314,22 +314,22 @@ PrefabInstance:
     - target: {fileID: 342790285331601641, guid: 209e2075c2c5ca34f833f7acf14ec066,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 342790285331601641, guid: 209e2075c2c5ca34f833f7acf14ec066,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.1854476
       objectReference: {fileID: 0}
     - target: {fileID: 342790285331601641, guid: 209e2075c2c5ca34f833f7acf14ec066,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 342790285331601641, guid: 209e2075c2c5ca34f833f7acf14ec066,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.98265415
       objectReference: {fileID: 0}
     - target: {fileID: 342790285331601641, guid: 209e2075c2c5ca34f833f7acf14ec066,
         type: 3}
@@ -344,7 +344,7 @@ PrefabInstance:
     - target: {fileID: 342790285331601641, guid: 209e2075c2c5ca34f833f7acf14ec066,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 21.374
       objectReference: {fileID: 0}
     - target: {fileID: 342790285331601641, guid: 209e2075c2c5ca34f833f7acf14ec066,
         type: 3}
@@ -6318,7 +6318,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1129924362}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 07994bfe8b0e4adb97d706de5dea48d5, type: 3}
   m_Name: 
@@ -6476,8 +6476,9 @@ GameObject:
   - component: {fileID: 1288511474}
   - component: {fileID: 1288511473}
   - component: {fileID: 1288511472}
+  - component: {fileID: 1288511477}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: ClippyPlane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6496,8 +6497,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   columns: 27
-  rows: 34
-  framesPerSecond: 10
+  rows: 1
+  framesPerSecond: 7
+  reset: 0
 --- !u!64 &1288511473
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6530,7 +6532,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: dd32b0978f8a43e438a6e9ae5ae7fdc8, type: 2}
+  - {fileID: 2100000, guid: 8750238429884174aa2fee473da053a5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6573,6 +6575,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: -265.384, y: -30.208984, z: 236.806}
+--- !u!95 &1288511477
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288511471}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 00e4f1fe48fa5f0419eaa8689fa7a883, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1513595298
 PrefabInstance:
   m_ObjectHideFlags: 0
