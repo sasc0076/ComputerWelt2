@@ -6477,6 +6477,7 @@ GameObject:
   - component: {fileID: 1288511473}
   - component: {fileID: 1288511472}
   - component: {fileID: 1288511477}
+  - component: {fileID: 1288511478}
   m_Layer: 0
   m_Name: ClippyPlane
   m_TagString: Untagged
@@ -6496,7 +6497,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99ff0ccd03846e346b2cfeb14afe9efa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  columns: 27
+  columns: 1
   rows: 1
   framesPerSecond: 7
   reset: 0
@@ -6532,7 +6533,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8750238429884174aa2fee473da053a5, type: 2}
+  - {fileID: 2100000, guid: 2b434a509e88a6249963e1f5e807bd13, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6594,6 +6595,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1288511478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288511471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79409d8af5fbe5248afc857a57745b62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leave: 0
+  appear: 0
+  mytime: 0
 --- !u!1001 &1513595298
 PrefabInstance:
   m_ObjectHideFlags: 0

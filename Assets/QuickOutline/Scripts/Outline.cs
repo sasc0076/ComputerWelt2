@@ -103,12 +103,12 @@ public class Outline : MonoBehaviour {
     foreach (var renderer in renderers) {
 
       // Append outline shaders
-      var materials = renderer.sharedMaterials.ToList();
+      var materials = GetComponent<Renderer>().sharedMaterials.ToList();
 
       materials.Add(outlineMaskMaterial);
       materials.Add(outlineFillMaterial);
 
-      renderer.materials = materials.ToArray();
+      GetComponent<Renderer>().materials = materials.ToArray();
     }
   }
 
@@ -141,12 +141,12 @@ public class Outline : MonoBehaviour {
     foreach (var renderer in renderers) {
 
       // Remove outline shaders
-      var materials = renderer.sharedMaterials.ToList();
+      var materials = GetComponent<Renderer>().sharedMaterials.ToList();
 
       materials.Remove(outlineMaskMaterial);
       materials.Remove(outlineFillMaterial);
 
-      renderer.materials = materials.ToArray();
+      GetComponent<Renderer>().materials = materials.ToArray();
     }
   }
 
