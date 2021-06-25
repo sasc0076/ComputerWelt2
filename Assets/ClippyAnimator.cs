@@ -20,6 +20,7 @@ public class ClippyAnimator : MonoBehaviour
             if (leave)
             {
                 this_animator.SetInteger("Leave", Random.Range(1,2));
+            leave = !leave;
             }
             else
             {
@@ -29,7 +30,8 @@ public class ClippyAnimator : MonoBehaviour
             {
                // random_appear = Random.Range(1, 2);
                 this_animator.SetInteger("Appear", Random.Range(1,2));
-            
+            appear = !appear;
+
             }
             else
             {
@@ -57,5 +59,15 @@ public class ClippyAnimator : MonoBehaviour
         mytime = 0;
         this_animator.SetInteger("Idle", 0);
     }
+
+    public void Leave()
+    {
+        leave = true;
     }
+
+    public void Appear()
+    {
+        appear = true;
+    }
+}
 
