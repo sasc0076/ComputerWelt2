@@ -348,7 +348,6 @@ MonoBehaviour:
   m_FollowTightness: 10
   m_SnapThresholdDistance: 10
   m_Reticle: {fileID: 8637966640134309828}
-  ReticleNormalUp: 0
   m_StopLineAtFirstRaycastHit: 1
 --- !u!1 &342790284199005955
 GameObject:
@@ -5793,7 +5792,6 @@ MonoBehaviour:
   m_FollowTightness: 10
   m_SnapThresholdDistance: 10
   m_Reticle: {fileID: 0}
-  ReticleNormalUp: 0
   m_StopLineAtFirstRaycastHit: 1
 --- !u!1 &342790285894289432
 GameObject:
