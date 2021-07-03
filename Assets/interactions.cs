@@ -7,11 +7,12 @@ public class interactions : MonoBehaviour
 {
     public Renderer texture;
     public Material newmaterial, currentmaterial;
-
-
+    Transform beforepos;
+    GameObject Player;
     private void Start()
     {
         currentmaterial = texture.material;
+        Player = GameObject.FindGameObjectWithTag("Player");
     }
     public void SelectTexture(bool active)
     {
@@ -37,4 +38,23 @@ public class interactions : MonoBehaviour
         box.SetActive(false);
 
     }
+
+
+    public void TeleportPlayer(Transform spawnpoint)
+    {
+        beforepos = Player.transform;
+        Player.transform.position = spawnpoint.position;
+
+    }
+
+    public void TeleportBack()
+    {
+        Player.transform.position = beforepos.position;
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
 }
